@@ -1,8 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{87603BB1-62F5-425D-B23D-F739A352D3DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{EEA86C26-8951-462B-A4DD-C9AE4586038F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData", "FileData\FileData.csproj", "{7615E773-BC29-4ABB-A81F-531691F127FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{AB1FD977-2EAB-4000-B56B-E34B490A2374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87603BB1-62F5-425D-B23D-F739A352D3DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87603BB1-62F5-425D-B23D-F739A352D3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87603BB1-62F5-425D-B23D-F739A352D3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87603BB1-62F5-425D-B23D-F739A352D3DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA86C26-8951-462B-A4DD-C9AE4586038F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA86C26-8951-462B-A4DD-C9AE4586038F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA86C26-8951-462B-A4DD-C9AE4586038F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA86C26-8951-462B-A4DD-C9AE4586038F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7615E773-BC29-4ABB-A81F-531691F127FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7615E773-BC29-4ABB-A81F-531691F127FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7615E773-BC29-4ABB-A81F-531691F127FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7615E773-BC29-4ABB-A81F-531691F127FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1FD977-2EAB-4000-B56B-E34B490A2374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1FD977-2EAB-4000-B56B-E34B490A2374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1FD977-2EAB-4000-B56B-E34B490A2374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1FD977-2EAB-4000-B56B-E34B490A2374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
